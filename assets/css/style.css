@@ -153,6 +153,8 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
+li { list-style: none; }
+
 body { 
   background: var(--smoky-black);
  }
