@@ -153,7 +153,10 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-li { list-style: none; }
+li {
+ list-style: none; 
+}
+
 
 body { 
   background: var(--smoky-black);
@@ -505,6 +508,11 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
+.about-text > ul > li {
+	margin-bottom: 20px;
+}
+
 
 .about-text p { margin-bottom: 15px; }
 
